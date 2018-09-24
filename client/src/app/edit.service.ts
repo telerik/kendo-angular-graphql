@@ -34,7 +34,7 @@ export class EditService extends BehaviorSubject<Product[]> {
       })
       .valueChanges
       .pipe(
-        map(({ data }) => <Product[]> data.products),
+        map((changes: any) => <Product[]> changes.data.products),
       )
       .subscribe(data => super.next(data));
   }
