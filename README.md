@@ -1,3 +1,5 @@
+##  This repository is no longer updated. To access the current version, refer to the [`kendo-angular` repository](https://github.com/telerik/kendo-angular/tree/master/examples/projects/grid-graphql).
+
 # Kendo UI for Angular - Grid Integration with GraphQL
 
 This application shows an example of how one can use editable Kendo UI for Angular Grid with GraphQL queries.
